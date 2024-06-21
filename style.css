@@ -1,0 +1,109 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #1E90FF, rgb(170, 195, 244));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+
+.spot img{
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 35px;
+    border: 1px solid;
+    width:230px;
+    height:40px;
+}
+
+.spot {
+    background: linear-gradient(to bottom right, #8dc3f8, rgb(170, 195, 244));
+    width: 3.37in;
+    height: 2.125in;
+    border: 2px solid #1E90FF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+   
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.license-card {
+    width: 3.37in;
+    height: 2.125in;
+    background: linear-gradient(to bottom right, #1E90FF, rgb(170, 195, 244));
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #E6F7FF;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.license-card header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em; /* Made the header text smaller */
+    border-radius: 3px 3px 0 0;
+    position: relative;
+}
+.license-card header .left-heart,
+.license-card header .right-heart {
+    font-size: 1.2em;
+    position: absolute;
+    top: 5px;
+}
+.license-card header .left-heart {
+    left: 10px;
+}
+.license-card header .right-heart {
+    right: 10px;
+}
+.license-card .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    position: relative;
+}
+.license-card .content img {
+    width: 1in; /* Made the profile picture smaller */
+    height: 1in; /* Made the profile picture smaller */
+    margin-right: 10px;
+    border: 2px solid #69a6e3;
+}
+.license-card .details {
+
+    flex: 1;
+    font-size: 0.6em; /* Made the text smaller */
+}
+.license-card .details p {
+    margin: 2px 0;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2px;
+    border-radius: 3px;
+}
+.license-card .background-hearts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/heart-paper.png');
+    opacity: 0.2;
+}
+.spotify-code img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+}
