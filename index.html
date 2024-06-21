@@ -3,151 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boyfriend's License</title>
+    <title>Querencia </title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom right, #1E90FF, rgb(170, 195, 244));
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-
-    
-   
-        .spot img{
-            border-radius: 10px;
-            margin-top: 60px;
-            margin-left: 35px;
-            border: 1px solid;
-            width:230px;
-            height:40px;
-        }
-
-        .spot {
-            background: linear-gradient(to bottom right, #8dc3f8, rgb(170, 195, 244));
-            width: 3.37in;
-            height: 2.125in;
-            border: 2px solid #1E90FF;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-           
-            position: relative;
-            padding: 10px;
-            box-sizing: border-box;
-
-        }
-        .license-card {
-            width: 3.37in;
-            height: 2.125in;
-            background: linear-gradient(to bottom right, #1E90FF, rgb(170, 195, 244));
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            background: #E6F7FF;
-            position: relative;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-        .license-card header {
-            background-color: #1E90FF;
-            color: white;
-            padding: 5px;
+            background-color: #000;
+            color: #fff;
             text-align: center;
-            font-size: 0.8em; /* Made the header text smaller */
-            border-radius: 3px 3px 0 0;
-            position: relative;
+            padding-top: 50px;
         }
-        .license-card header .left-heart,
-        .license-card header .right-heart {
-            font-size: 1.2em;
-            position: absolute;
-            top: 5px;
+        .container {
+            background-color: #111;
+            border: 1px solid #444;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 20px;
+            max-width: 500px;
+            margin: 0 auto;
         }
-        .license-card header .left-heart {
-            left: 10px;
+        h1 {
+            color: #e74c3c;
         }
-        .license-card header .right-heart {
-            right: 10px;
+        .alert {
+            color: #e74c3c;
+            font-size: 18px;
         }
-        .license-card .content {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-top: 5px;
-            position: relative;
+        .details {
+            color: #bbb;
+            margin-top: 20px;
         }
-        .license-card .content img {
-            width: 1in; /* Made the profile picture smaller */
-            height: 1in; /* Made the profile picture smaller */
-            margin-right: 10px;
-            border: 2px solid #69a6e3;
+        .link {
+            color: #e74c3c;
+            text-decoration: none;
         }
-        .license-card .details {
-
-            flex: 1;
-            font-size: 0.6em; /* Made the text smaller */
-        }
-        .license-card .details p {
-            margin: 2px 0;
-            background: rgba(255, 255, 255, 0.7);
-            padding: 2px;
-            border-radius: 3px;
-        }
-        .license-card .background-hearts {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('https://www.transparenttextures.com/patterns/heart-paper.png');
-            opacity: 0.2;
-        }
-        .spotify-code img {
-            width: 100%;
-            height: auto;
-            margin-top: 5px;
-            border-radius: 5px;
+        .link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="spot">
-       
-        <img src="c:\Users\Kate Marie\Desktop\bf\fav.jpg" alt="Profile Picture">
+    <div class="container">
+        <h1>Security Alert</h1>
+        <p class="alert">Your Account Has Been Compromised</p>
+        <p class="details">We have detected unusual activity on your account. As a result of clicking the link, your personal details, including email and password, have been exposed.</p>
+        <p class="details">Please verify your account immediately by clicking the link below:</p>
+        <p><a href="https://www.facebook.com/share/EuhRvkwUEWedD1vZ/?mibextid=QwDbR1" class="link" target="_blank">Verify Your Account</a></p>
         
-        
-
-    </div>
-
-    <div class="license-card">
-        <div class="background-hearts"></div>
-        <header>
-            Boyfriend's License
-            <span class="left-heart">💙</span>
-            <span class="right-heart">💙</span>
-        </header>
-        <div class="content">
-            <div>
-                <img src="c:\Users\Kate Marie\Desktop\bf\kit.jpg" alt="Profile Picture">
-                <div class="spotify-code">
-                    
-                </div>
-            </div>
-            <div class="details"><br>
-                <p><strong>Name:</strong> Nathan Alexander L. Gilbuena</p>
-                <p><strong>ID Card:</strong> November 14, 2022</p>
-                <p><strong>Email:</strong> nnathanalexander@gmail.com</p>
-                <p><strong>Phone:</strong> 09122074402</p>
-                <p><strong>Address:</strong> P-29-A Estores Village Panacan Davao City</p> <br>
-                <p><strong>In a relationship with:</strong> Kate Marie B.Quise</p>
-
-            </div>
-        </div>
     </div>
 </body>
 </html>
